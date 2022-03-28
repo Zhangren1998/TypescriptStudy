@@ -43,7 +43,7 @@ console.log(animal.name);
 class Cat{
     constructor(public _name:string,public _age:number){
     }
-    }
+    
 }
 const cat = new Cat("小白",3);
 console.log(cat._name,cat._age);
